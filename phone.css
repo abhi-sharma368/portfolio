@@ -1,0 +1,289 @@
+@media only screen and (max-width: 550px) {
+  #menu {
+    flex-direction: column;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 250px;
+    z-index: -1;
+    background-color: var(--obj-bg);
+    color: var(--bg-txt);
+    font-size: 1.3rem;
+  }
+
+  .hide-menu {
+    visibility: hidden;
+  }
+
+  #menu a::after {
+    top: 25px;
+    border-bottom: 2px solid var(--highlight);
+  }
+
+  #menu-icon {
+    display: block;
+  }
+
+  #right-nav {
+    width: 70px;
+  }
+
+  /* section-1 css */
+  #section-1 {
+    min-height: 85vh;
+    margin-top: 60px;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  #section-1-detail {
+    width: 85vw;
+  }
+
+  #section-1-detail p {
+    text-align: center;
+    font-size: 5vw;
+  }
+
+  #icons {
+    width: 70vw;
+  }
+
+  #icons a {
+    width: 10vw;
+    height: 10vw;
+  }
+
+  #icons a i {
+    font-size: 7.5vw;
+  }
+
+  #icons a:hover {
+    color: var(--highlight);
+  }
+
+  #nm {
+    color: var(--highlight);
+    font-size: 6vw;
+  }
+
+  #pic {
+    width: 45vw;
+    height: 45vw;
+  }
+  #pic::after {
+    top: 1vw;
+    left: 1vw;
+    width: 43vw;
+    height: 43vw;
+  }
+
+  /* about */
+  #about {
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  #about-box {
+    width: 90vw;
+    height: 500px;
+    flex-direction: column;
+  }
+
+  #about-points {
+    width: 100%;
+    height: 80px;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #a-points {
+    width: 75%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  #a-points button {
+    width: 20vw;
+    height: 38px;
+    font-size: 3.6vw;
+  }
+  #a-cv {
+    margin: 0;
+  }
+  #a-cv a {
+    font-size: 3.5vw;
+    padding: 7px 15px;
+  }
+
+  #about-details {
+    width: 90vw;
+  }
+
+  #about-details h1 {
+    margin-left: 20px;
+    font-size: 6vw;
+  }
+
+  /* about myself section */
+  #my p {
+    font-size: 3.4vw;
+    columns: 1;
+  }
+
+  #my img {
+    width: 12vw;
+    margin-left: 20px;
+  }
+
+  /* about education section */
+
+  .edu-box {
+    width: 37%;
+  }
+
+  .edu-box h3 {
+    font-size: 4vw;
+  }
+
+  .edu-box h3 img {
+    width: 5.5vw;
+  }
+
+  .edu-box p {
+    margin-left: 15px;
+    font-size: 3.2vw;
+  }
+
+  /* about address css */
+
+  #add-details {
+    flex-direction: column-reverse;
+  }
+
+  #residence p {
+    font-size: 3.7vw;
+  }
+
+  #residence p span {
+    font-size: 5vw;
+  }
+
+  /* skill section css  */
+  #skill-container {
+    flex-direction: column;
+  }
+
+  #tool-box {
+    flex-wrap: wrap;
+  }
+
+  #lang {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  /* header */
+  #left-nav {
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+
+  /* section-1 */
+  #section-1 {
+    width: 98%;
+    min-height: 110vw;
+    flex-direction: column-reverse;
+    margin: 0;
+    margin-top: 65px;
+  }
+
+  #section-1-detail {
+    width: 100%;
+  }
+
+  #section-1-detail p {
+    width: 95%;
+    font-size: 5.5vw;
+    margin: auto;
+    text-align: center;
+  }
+
+  #nm {
+    font-size: 7vw;
+  }
+
+  #icons {
+    width: 80vw;
+  }
+
+  #icons a {
+    width: 11vw;
+    height: 11vw;
+  }
+
+  #icons a i {
+    font-size: 7vw;
+  }
+
+  /* skill section css  */
+
+  #skill-container-tools {
+    width: 100vw;
+    height: 200px;
+  }
+
+  #skill-container-progress {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .tool-card {
+    width: 28vw;
+    height: 35vw;
+  }
+  .tool-card img {
+    width: 80%;
+  }
+  .tool-card h4 {
+    font-size: 3.8vw;
+  }
+  .bar {
+    width: 80%;
+  }
+
+  @keyframes html {
+    100% {
+      width: 90%;
+    }
+  }
+
+  @keyframes css {
+    100% {
+      width: 60%;
+    }
+  }
+
+  @keyframes js {
+    100% {
+      width: 75%;
+    }
+  }
+
+  @keyframes java {
+    100% {
+      width: 30%;
+    }
+  }
+
+  @keyframes c {
+    100% {
+      width: 85%;
+    }
+  }
+}

@@ -1,0 +1,254 @@
+/* Tablet media querry css */
+
+@media only screen and (max-width:768px) {
+    /* header */
+    header {
+        height: 60px;
+    }
+
+    #left-nav {
+        font-size: 2.1rem;
+    }
+
+    #right-nav {
+        width: 420px;
+        font-size: 1.2rem;
+    }
+
+    #right-nav a::after {
+        top: 23px;
+    }
+
+    #theme-btn img {
+        width: 20px;
+    }
+
+    /* section-1 */
+    #section-1 {
+        margin-top: 0px;
+        min-height: 65vh;
+        align-items: flex-start;
+    }
+
+    #section-1-detail {
+        width: 65vw;
+    }
+
+    #section-1-detail p {
+        font-size: 3.8vw;
+    }
+
+    #nm {
+        font-size: 6vw;
+    }
+
+    #icons {
+        width: 300px;
+    }
+
+    #icons a {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    #icons a i {
+        font-size: 1.8rem;
+    }
+
+
+    /* about */
+    #about{
+        min-height: 550px;
+        align-items: flex-end;
+    }
+    #about-box {
+        width: 100vw;
+    }
+
+    #about-points {
+        width: 15vw;
+    }
+
+    #a-points {
+        min-height: 170px;
+    }
+
+    #a-cv a {
+        font-size: 2.5vw;
+        padding: 8px 20px;
+    }
+
+    #about-points button {
+        width: 15vw;
+        height: 40px;
+        font-size: 2.3vw;
+    }
+
+
+    #about-details {
+        width: 70vw;
+    }
+
+    #about-details h1 {
+        font-size: 4vw;
+    }
+
+    #my p {
+        font-size: 2vw;
+    }
+
+    #my img {
+        width: 9vw;
+    }
+
+
+
+
+    
+    .edu-box h3 {
+        margin-left: 12px;
+        font-size: 2.8vw;
+    }
+    
+    .edu-box h3 img {
+        margin-right: 5px;
+        width: 3.5vw;
+    }
+    
+    .edu-box p {
+        margin-left: 15px;
+        font-size: 1.8vw;
+    }
+
+
+    
+    #residence p{
+        font-size: 2vw;
+        padding: 6px;
+    }
+    #residence p span{
+        font-size: 2.4vw;
+    }
+
+
+
+    /* skill section css */
+    #skill-container{
+        margin-top: 85px;
+    }
+    .bar {
+        width: 200px;
+        height: 6px;
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+
+
+    #skill-container-progress p {
+        font-size: 1.1rem;
+    }
+
+    .bar::after {
+        height: 6px;
+        border-radius: 3px;
+    }
+
+    @keyframes html {
+        100% {
+            width: 170px;
+        }
+    }
+
+    @keyframes css {
+        100% {
+            width: 140px;
+        }
+    }
+
+    @keyframes js {
+        100% {
+            width: 160px;
+        }
+    }
+
+    @keyframes java {
+        100% {
+            width: 60px;
+        }
+    }
+
+    @keyframes c {
+        100% {
+            width: 180px;
+        }
+    }
+
+    #skill-container-tools {
+        width: 370px;
+        height: 220px;
+    }
+
+    #skill-container-tools h1 {
+        margin: 12px auto;
+        font-size: 1.4rem;
+    }
+
+    #tool-box {
+        width: 100%;
+        height: 160px;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .tool-card {
+        width: 105px;
+        height: 115px;
+    }
+
+    .tool-card:hover {
+        scale: 1.05;
+    }
+
+    .tool-card img {
+        width: 70px;
+    }
+    .tool-card h4{
+        font-size: 0.8rem;
+    }
+
+    .lang-card {
+        width: 100px;
+        height: 110px;
+    }
+    
+    .lang-card img {
+        width: 60px;
+    }
+
+
+    #project h1 {
+        padding: 10px;
+        font-size: 2.1rem;
+        margin-top: 60px;
+    }
+    .project-card {
+        width: 220px;
+        height: 130px;
+    }
+    .project-card-detail h2 {
+        margin: 8px 0 0 8px;
+        font-size: 1.4rem;
+    }
+    
+    .project-card-detail p {
+        margin: 5px 10px;
+        font-size: 0.75rem;
+    }
+    
+    .project-card-detail a {
+        font-size: 1rem;
+        padding: 4px 7px;
+    }
+    
+
+}
