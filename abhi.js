@@ -14,7 +14,7 @@ const theme = () => {
 };
 theme();
 
-const menuResponsive = () => {
+const threeDotMenu = () => {
   let menuBtn = document.querySelector("#menu-icon");
   let menu = document.querySelector("#menu");
   let mIcon = document.querySelector("#m-icon");
@@ -27,7 +27,7 @@ const menuResponsive = () => {
     }
   });
 };
-menuResponsive();
+threeDotMenu();
 
 const aboutfunc = () => {
   let mySelf = document.querySelector("#myself");
