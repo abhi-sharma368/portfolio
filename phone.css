@@ -60,10 +60,6 @@
     font-size: 7.5vw;
   }
 
-  #icons a:hover {
-    color: var(--highlight);
-  }
-
   #nm {
     color: var(--highlight);
     font-size: 6vw;
