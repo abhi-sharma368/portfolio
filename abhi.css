@@ -660,9 +660,8 @@ header {
 #contact {
   width: 100%;
   min-height: 100vh;
-  background: url("images/contactus.jpg");
-  background-position: center;
-  object-fit: cover;
+  background: url("images/contactus.jpg") no-repeat center;
+  background-size: cover;
   display: flex;
   align-items: center;
   justify-content: center;

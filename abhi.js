@@ -21,7 +21,7 @@ const threeDotMenu = () => {
   menuBtn.addEventListener("click", () => {
     menu.classList.toggle("hide-menu");
     if (menu.classList.contains("hide-menu")) {
-      mIcon.src = "images/menubar.png";
+      mIcon.src = "images/menuBar.png";
     } else {
       mIcon.src = "images/close.png";
     }
