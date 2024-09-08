@@ -31,19 +31,20 @@
 
   /* section-1 css */
   #section-1 {
-    min-height: 85vh;
     margin-top: 60px;
     align-items: center;
+    padding: 13px 0;
     flex-direction: column-reverse;
     justify-content: center;
   }
   #section-1-detail {
-    width: 85vw;
+    width: 90vw;
   }
 
   #section-1-detail p {
     text-align: center;
     font-size: 5vw;
+    margin-top: 15px;
   }
 
   #icons {
@@ -82,7 +83,7 @@
   /* about */
   #about {
     width: 100%;
-    min-height: 100vh;
+    padding: 0;
   }
 
   #about-box {
@@ -183,6 +184,9 @@
 
   #lang {
     display: none;
+  }
+  #project {
+    padding: 40px 0;
   }
 }
 
