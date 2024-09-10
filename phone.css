@@ -44,7 +44,7 @@
   #section-1-detail p {
     text-align: center;
     font-size: 5vw;
-    margin-top: 15px;
+    margin-top: 25px;
   }
 
   #icons {
@@ -207,9 +207,8 @@
   }
 
   #section-1-detail p {
-    width: 95%;
-    font-size: 5.5vw;
-    margin: auto;
+    width: 100%;
+    font-size: 5vw;
     text-align: center;
   }
 
