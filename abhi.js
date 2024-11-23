@@ -64,8 +64,23 @@ const aboutfunc = () => {
 };
 aboutfunc();
 
-const resetForm = () => {
-  document.querySelector("#prsn-nm").value = "";
-  document.querySelector("#eml").value = "";
-  document.querySelector("#mssg").value = "";
-};
+function displayProject() {
+  let projectContainer = document.querySelector("#project-container");
+  if (!projectContainer) {
+    return;
+  }
+  let innerHTML = "";
+  projects.forEach((project) => {
+    innerHTML += `<div class="project-card">
+            <img src="images/${project.img}" alt="" />
+            <div class="project-card-detail">
+              <h2>${project.title}</h2>
+              <p>${project.description}</p>
+              <a href="${project.link}" target="_blank">${project.btnVal}</a>
+            </div>
+          </div>`;
+  });
+
+  projectContainer.innerHTML = innerHTML;
+}
+displayProject();
