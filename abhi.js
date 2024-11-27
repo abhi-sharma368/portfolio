@@ -76,7 +76,7 @@ function displayProject() {
             <div class="project-card-detail">
               <h2>${project.title}</h2>
               <p>${project.description}</p>
-              <a href="${project.link}" target="_blank">${project.btnVal}</a>
+              <a href="${project.path}" target="_blank">${project.btnVal}</a>
             </div>
           </div>`;
   });
