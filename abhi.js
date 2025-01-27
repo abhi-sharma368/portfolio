@@ -84,3 +84,17 @@ function displayProject() {
   projectContainer.innerHTML = innerHTML;
 }
 displayProject();
+
+gsap.from("#section-1-detail p", {
+  x: -120,
+  Duration: 1,
+  opacity: 0,
+  delay: 0.7,
+});
+
+gsap.from("#pic", {
+  x: 120,
+  Duration: 1,
+  opacity: 0,
+  delay: 0.5,
+});

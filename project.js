@@ -1,10 +1,10 @@
 const projects = [
   {
-    title: "Amazon",
-    img: "project-5.png",
-    description: "Amazon UI design.It looks like Original website of Amazon and it is created using HTML and CSS.",
-    path: "images/project-5.png",
-    btnVal: "See it!",
+    title: "Spotify",
+    img: "spotify.png",
+    description: "Spotify-clone in which you listen songs. It is created using MERN.",
+    path: "https://spotify-clone-rzhx.onrender.com",
+    btnVal: "Visit here!",
   },
   {
     title: "Tic-Tac-Toe",
@@ -24,7 +24,8 @@ const projects = [
   {
     title: "Weather App",
     img: "project-8.png",
-    description: "It is a Weather checker in which we check weather,wind speed,humidity of any city all over world.",
+    description:
+      "It is a Weather checker in which we check weather,wind speed,humidity of any city all over world.",
     path: "https://weather-app-sigma-liard.vercel.app/",
     btnVal: "Visit here!",
   },
