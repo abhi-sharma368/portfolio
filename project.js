@@ -1,5 +1,21 @@
 const projects = [
   {
+    title: "BuyMitra",
+    img: "buyMitra.png",
+    description:
+      "A full-featured MERN e-commerce website with user authentication, product browsing, cart, and admin dashboard.",
+    path: "https://buymitra.onrender.com/",
+    btnVal: "Visit here!",
+  },
+  {
+    title: "Iris Pu",
+    img: "Iris.png",
+    description:
+      "A modern MERN stack school website with enquiry forms, admin panel, and dynamic notice management.",
+    path: "https://irispublicschoolfatuha.in",
+    btnVal: "Visit here!",
+  },
+  {
     title: "Spotify",
     img: "spotify.png",
     description: "Spotify-clone in which you listen songs. It is created using MERN.",
