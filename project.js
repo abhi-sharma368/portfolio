@@ -8,7 +8,7 @@ const projects = [
     btnVal: "Visit here!",
   },
   {
-    title: "Iris Pu",
+    title: "Iris Public School",
     img: "Iris.png",
     description:
       "A modern MERN stack school website with enquiry forms, admin panel, and dynamic notice management.",

@@ -486,7 +486,7 @@ header {
 
 @keyframes java {
   100% {
-    width: 120px;
+    width: 160px;
   }
 }
 
@@ -497,6 +497,15 @@ header {
 @keyframes c {
   100% {
     width: 200px;
+  }
+}
+#md::after {
+  animation: md 5s ease forwards;
+}
+
+@keyframes md {
+  100% {
+    width: 180px;
   }
 }
 
